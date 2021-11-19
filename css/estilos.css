@@ -1,0 +1,201 @@
+*{margin: 0px; padding: 0px}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+body {
+    font-family: 'Montserrat', sans-serif; 
+    background-color: white;
+}
+
+
+.navbar-brand{
+    font-family: 'Montserrat', serif;
+    font-size: 50px;
+    text-decoration: none;
+    margin-left: px;
+    padding: 5px;
+;
+
+}
+
+.navbar-nav{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    text-decoration: none;
+    
+}
+
+.fotonav{
+    width: 50%;
+    margin-left :10px;
+
+}
+
+
+body {
+  background: #f1f1fa;
+}
+
+.index {
+ margin-left: 17%;
+ margin-right: 15%;
+}
+
+
+
+h1  { 
+   	font-size:30px; 
+    margin: auto;
+    color:;
+    padding-top: 20px
+    
+    }
+
+.home { 
+    text-align: center;
+    padding: 30px;
+    animation-name: entrar;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    width: 300px;
+    transition: 0.5s;
+    
+    }
+
+.home:hover 
+{
+    transform: scale(110%);
+
+}
+
+
+
+
+
+
+.hist{ 
+  
+ animation-name: entrar;
+ animation-duration: 3s;
+ animation-delay: 0s;
+
+    
+    }
+
+
+.balla {
+ animation-name: entrar;
+ animation-duration: 3s;
+ animation-delay: 0s;
+}
+
+.boccioni{
+ animation-name: entrar;
+ animation-duration: 6s;
+ animation-delay: 0s;
+}
+
+.ob1 {
+ animation-name: entrar;
+ animation-duration: 3s;
+ animation-delay: 0s;
+}
+
+.ob2 {
+ animation-name: entrar;
+ animation-duration: 6s;
+ animation-delay: 0s;
+}
+
+
+
+
+.arq {
+    text-align: ; 
+    width: 48%; 
+    margin: 1%;
+    padding: 15px; 
+    display: block;
+    box-sizing: border-box; 
+ 
+      
+    }
+
+   
+.fotoarq {
+     
+    transition: 0.5s;
+}
+
+.fotoarq:hover 
+{
+    transform: scale(110%);
+
+}
+
+
+.arqui{
+ transition: 0.5s;
+}
+
+.arqui:hover 
+{
+    transform: scale(115%);
+
+}
+.obras{
+ transition: 0.5s;
+}
+
+.obras:hover 
+{
+    transform: scale(115%);
+
+}
+
+.form { 
+    background-color: #d5e6ea
+ }
+
+.fotoform{
+ width: 50%;
+ margin-top: 20px
+}
+
+
+.cajafoto { display: block; width: 100%;}
+
+
+
+
+
+
+footer { 
+     padding: 3px; 
+     text-align: center;
+     background: linear-gradient(180deg, #8eb5be  0%, #d5e6ea 100%); 
+     font-family: "Montserrat"
+     
+      }
+
+
+footer p { 
+    
+     margin-top:15px;
+      }
+
+
+@keyframes entrar{
+    0%{
+        transform: translateX(500px);
+        
+    }
+    50%{
+        transform: translateX(-50px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+
+
